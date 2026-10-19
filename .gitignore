@@ -1,0 +1,23 @@
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# runtime data (jobs.sqlite, etc.)
+data/*
+!data/.gitkeep
+tmp/
+*.tmp
+
+# local-only: env, samples & generated outputs (keep repo lean)
+.env
+*.pdf
+/*.md
+!README.md
+!CHANGELOG.md
+*.log
+
+# removed upstream — never re-add
+legacy/
